@@ -205,7 +205,7 @@ const tg = window.Telegram && Telegram.WebApp;
 if (tg) { tg.ready(); tg.expand(); try { tg.setHeaderColor('#0a0b14'); tg.setBackgroundColor('#0a0b14'); } catch(e){} }
 const u = tg && tg.initDataUnsafe && tg.initDataUnsafe.user;
 
-const API = '';   // адрес бэкенда на Render, например 'https://sarmcase-api.onrender.com' (без / на конце). Пусто = демо без сервера
+const API = 'https://sarmcase.onrender.com';   // адрес бэкенда на Render, например 'https://sarmcase-api.onrender.com' (без / на конце). Пусто = демо без сервера
 const CHANNEL = 'https://t.me/SarmCase';
 const CD = 12 * 3600 * 1000;              // 12 часов
 
